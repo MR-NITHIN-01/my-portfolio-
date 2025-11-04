@@ -25,7 +25,7 @@ const Footer = () => {
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Let&apos;s dive into deeper opportunities and accepting collaborations
         </p>
-        <a href="mailto:sandeepsanu1230@gmail.com">
+        <a href="mailto:gugulothnithin1010@gmail.com">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
@@ -35,7 +35,7 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © All Rights Reserved
+          Copyright © All Rights Reserved @Nithin
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">

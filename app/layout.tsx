@@ -7,8 +7,8 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "𝑼𝒏𝒗𝒆𝒊𝒍𝒊𝒏𝒈 𝑺𝒂𝒏𝒅𝒆𝒆𝒑 𝑯𝒐𝒓𝒊𝒛𝒐𝒏",
-  description: "A Portfolio with Next",
+  title: "𝑵𝒊𝒕𝒉𝒊𝒏 — 𝑻𝒉𝒆 𝑪𝒓𝒆𝒂𝒕𝒊𝒗𝒆 𝑯𝒐𝒓𝒊𝒛𝒐𝒏",
+  description: "A modern portfolio crafted with Next.js.",
 };
 
 export default function RootLayout({
@@ -19,7 +19,11 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/canva-pink-yellow-gradient-portfolio-cover-document-kBzjGecjvDA.jpg" sizes="any" />
+        <link
+          rel="icon"
+          href="/canva-pink-yellow-gradient-portfolio-cover-document-kBzjGecjvDA.jpg"
+          sizes="any"
+        />
       </head>
       <body className={inter.className}>
         <ThemeProvider

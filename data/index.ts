@@ -72,13 +72,15 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    name: "VidSync",
-    title: "VidSync-Where Faces Meet",
-    des: "Lets you get digitalised in real-time, no matter the distance.Meeting friends,professionals",
+    name: "InterviewSync",
+    title: "InterviewSync — Smart Virtual Meetings",
+    des: "A seamless platform for conducting interviews and professional meetings with real-time communication and collaboration tools.",
     img: "/panopto-zoom-integration.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://vidsync-where-faces-meet.netlify.app/",
+    link: "https://interview-platform-git-main-nithins-projects-4361640e.vercel.app/",
   },
+
+
   {
     id: 2,
     name: "Dine Destiny",
@@ -95,12 +97,12 @@ export const projects = [
   },
   {
     id: 3,
-    name: "MedicCare",
-    title: "MedicCare - A QuickMed Appointment",
-    des: "Convenient, Reliable, and Accessible. Empowering you to schedule doctor visits online and receive top-tier care at your fingertips.",
-    img: "/medic.jpg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://mediccare-aquickmedappointment.vercel.app",
+  name: "ReelyWorld",
+  title: "ReelyWorld — Create, Share & Explore Videos",
+  des: "A dynamic short-video sharing platform where users can upload, watch, and engage with creative content in real time. Built with Next.js, MongoDB, and TailwindCSS for a smooth, modern experience.",
+  img: "/epc7ivq6rtbd1.jpeg",
+  iconLists: ["/next.svg", "/mongo.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
+  link: "https://reely-world.vercel.app/",
   },
   {
     id: 4,
@@ -184,41 +186,46 @@ export const EducationAndFeats = [
   },
   {
     id: 2,
-    title: "Stu. Coordination & PR , E-Cell",
-    desc: "Ensuring smooth communication, and building strong public relations to enhance the overall student experience",
-    className: "md:col-span-2", 
-    thumbnail: "/exp2.svg",
+  title: "Community Outreach & Team Coordination",
+  desc: "Led community-driven initiatives and maintained active communication channels to foster engagement and teamwork.",
+  className: "md:col-span-2",
+  thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "Matric & Intermediate",
-    desc: "My early education was done from Oxford Public School,Jamui and S.A.E. College,Jamui(Bihar)",
+    desc: "My early education was done from Harvest Public School,Khammam College,(Telangana)",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/unnamed.png",
+    thumbnail: "/images.png",
   },
   {
-    id: 4,
-    title: "Participated and selected in SIH for Idea Submission Round",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/How-do-hackathons-work-1024x576.png",
+   id: 4,
+  title: "Solved 300+ Coding Problems on LeetCode & GFG",
+  desc: "Strengthened data structures, algorithms, and problem-solving skills by consistently participating in coding challenges.",
+  className: "md:col-span-2",
+  thumbnail: "/19301.jpg",
   },
 ];
 
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
-    url: "https://github.com/sandeep-001488/",
+    img: "/download.png",
+    url: "mailto:gugulothnithin1010@gmail.com",
   },
   {
     id: 2,
-    img: "/twit.svg",
-    url: "https://x.com/Sandeep800893",
+    img: "/phone-icon-logo-design-template-vector.jpg",
+    url: "tel:+918121891710",
   },
   {
     id: 3,
+    img: "/twit.svg",
+    url: "https://x.com/Mrnithin01",
+  },
+  {
+    id: 4,
     img: "/link.svg",
-    url: "https://www.linkedin.com/in/sandeep-kumar-934237260/",
+    url: "https://www.linkedin.com/in/nithin-guguloth-051092333/",
   },
 ];
